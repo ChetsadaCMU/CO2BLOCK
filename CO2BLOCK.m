@@ -17,7 +17,7 @@ fname = 'example_data.xlsx';        % name of the input data file
 %-
 
 %-- setting parameters
-correction = 'off' ;                % set on/off if you want to apply correction for superposition
+correction = 'on' ;                % set on/off if you want to apply correction for superposition
 dist_min = 2 ;                      % minimum inter-well distance [km]
 dist_max = 'auto';                  % maximum inter-well distance [km]. Set a number or 'auto' if you prefer automatic calculation
 nr_dist = 30 ;                      % number of inter-well distances to explore
